@@ -18,7 +18,7 @@ class Program
             {
                 Console.WriteLine("Higher");
             }
-            if (MagicNumber < number)
+            else if (MagicNumber < number)
             {
                 Console.WriteLine("Lower");
             }
